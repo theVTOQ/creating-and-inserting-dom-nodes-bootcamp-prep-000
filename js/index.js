@@ -14,5 +14,6 @@ for(var i = 0; i < 5; i++){
 
 element.appendChild(ul);
 
+//randomly remove a random li from the ul node
 var lis = ul.querySelectorAll('li');
 lis[Math.floor(Math.random()* lis.length)].remove();
