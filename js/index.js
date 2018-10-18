@@ -4,3 +4,12 @@ var element = document.createElement('div');
 element.innerHTML = 'Hello, DOM!';
 element.style.background = '#f9f9f9';
 document.body.appendChild(element);
+
+var ul = document.createElement('ul');
+for(var i = 0; i < 5; i++){
+  var li = document.createElement('li');
+  li.innerHTML = i;
+  ul.appendChild(li);
+}
+
+element.appendChild(ul);
