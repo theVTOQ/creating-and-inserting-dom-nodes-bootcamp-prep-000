@@ -13,3 +13,6 @@ for(var i = 0; i < 5; i++){
 }
 
 element.appendChild(ul);
+
+var lis = ul.querySelectorAll('li');
+lis[Math.floor(Math.random()* lis.length)].remove();
