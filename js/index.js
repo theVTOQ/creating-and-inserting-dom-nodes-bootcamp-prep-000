@@ -8,7 +8,7 @@ document.body.appendChild(element);
 var ul = document.createElement('ul');
 for(var i = 0; i < 5; i++){
   var li = document.createElement('li');
-  li.innerHTML = i;
+  li.innerHTML = i + 1;
   ul.appendChild(li);
 }
 
